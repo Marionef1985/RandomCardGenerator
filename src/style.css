@@ -1,1 +1,43 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+.backRectangle {
+  top: 20px;
+  right: 700px;
+  width: 260px;
+  height: 350px;
+  background-color: rgb(12, 165, 60);
+}
+
+.frontRectangle {
+  top: 35px;
+  right: 715px;
+  width: 230px;
+  height: 320px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 3%;
+}
+
+button {
+  top: 400px;
+  right: 760px;
+}
+
+#number {
+  font-family: "Slabo 27px", serif;
+  font-size: 75px;
+
+  top: 147px;
+  right: 817px;
+}
+
+.upSuits {
+  font-size: 35px;
+  top: 45px;
+  right: 890px;
+}
+
+.downSuits {
+  font-size: 35px;
+  top: 290px;
+  right: 728px;
+}
