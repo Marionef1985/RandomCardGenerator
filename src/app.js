@@ -25,15 +25,13 @@ const getRandomItem = arr => arr[getRandomNumber(arr.length)];
 window["getCard"] = () => {
   //declararcarta inicial
   //const card = { symbol: null, value: null };
-  const randomNumber = getRandomItem(numero);
-  const randomSymbolUp = getRandomItem(simbolo);
-  const randomSymbolDown = randomSymbolUp;
-  const numToShow = `${randomNumber}`;
-  const symbDownToShow = `${randomSymbolDown}`;
-  const symbUpToShow = `${randomSymbolUp}`;
+  //const randomNumber = getRandomItem(numero);
+  //const randomSymbolUp = getRandomItem(simbolo);
+  //const randomSymbolDown = randomSymbolUp;
+  const numToShow = `${getRandomItem(numero)}`;
+  const symbUpToShow = `${getRandomItem(simbolo)}`;
+  const symbDownToShow = `${symbUpToShow}`;
   document.querySelector("#number").innerHTML = numToShow;
   document.querySelector("#upSymbol").innerHTML = symbUpToShow;
   document.querySelector("#downSymbol").innerHTML = symbDownToShow;
-  //  Intentar:
-  // const numToShow = `${getRandomItem(numero)}`;
 };
