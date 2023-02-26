@@ -24,20 +24,20 @@ button {
 
 #number {
   font-family: "Slabo 27px", serif;
-  font-size: 75px;
+  font-size: 90px;
 
-  top: 147px;
-  right: 817px;
+  top: 130px;
+  right: 810px;
 }
 
 .upSuits {
   font-size: 35px;
   top: 45px;
-  right: 888px;
+  right: 895px;
 }
 
 .downSuits {
   font-size: 35px;
   top: 290px;
-  right: 728px;
+  right: 735px;
 }
