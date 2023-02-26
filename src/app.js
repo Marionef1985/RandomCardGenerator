@@ -17,8 +17,7 @@ const numero = [
   "Q",
   "K"
 ];
-const simbolo = ["❤️", "😉", "😶", "😈"];
-
+const simbolo = ["❤️", "♠️", "😶", "😈"];
 const getRandomNumber = arrlength => Math.floor(Math.random() * arrlength);
 const getRandomItem = arr => arr[getRandomNumber(arr.length)];
 
