@@ -1,6 +1,6 @@
 import "bootstrap";
 import "./style.css";
-
+//WORKING!!!!!
 const numero = [
   "A",
   "2",
@@ -28,18 +28,6 @@ const simbolo = [clubs, spades, heart, diamond];
 const getRandomNumber = arrlength => Math.floor(Math.random() * arrlength);
 const getRandomItem = arr => arr[getRandomNumber(arr.length)];
 
-//function setColor(simbolo) {
-//if (simbolo.val == heart) {
-//return simbolo.css("color", "red");
-//} else if (simbolo.val == diamond) {
-//  return simbolo.css("color", "red");
-//} else if (simbolo.val == clubs) {
-//  return simbolo.css("color", "black");
-//} else {
-//  return simbolo.css("color", "black");
-//}
-//}
-
 window["getCard"] = () => {
   //declararcarta inicial
   //const card = { symbol: null, value: null };
@@ -52,3 +40,15 @@ window["getCard"] = () => {
   document.querySelector("#upSymbol").innerHTML = symbToShow;
   document.querySelector("#downSymbol").innerHTML = symbToShow;
 };
+
+//function setColor(simbolo) {
+//if (simbolo.val == heart) {
+//return simbolo.css("color", "red");
+//} else if (simbolo.val == diamond) {
+//  return simbolo.css("color", "red");
+//} else if (simbolo.val == clubs) {
+//  return simbolo.css("color", "black");
+//} else {
+//  return simbolo.css("color", "black");
+//}
+//}
