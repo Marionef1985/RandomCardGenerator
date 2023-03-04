@@ -48,8 +48,8 @@ window["getCard"] = () => {
   //const randomSymbolUp = getRandomItem(simbolo);
   //const randomSymbolDown = randomSymbolUp;
   const numToShow = `${getRandomItem(numero)}`;
-  const symbToShow = `${getRandomItem(simbolo)}`;
-
+  const symbUpToShow = `${getRandomItem(simbolo)}`;
+  const symbDownToShow = `${symbUpToShow}`;
   document.querySelector("#number").innerHTML = numToShow;
   document.querySelector("#upSymbol").innerHTML = symbToShow;
   document.querySelector("#downSymbol").innerHTML = symbToShow;

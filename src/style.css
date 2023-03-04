@@ -32,11 +32,15 @@ button {
 .upSuits {
   font-size: 50px;
   top: 35px;
+  font-size: 35px;
+  top: 45px;
   right: 895px;
 }
 
 .downSuits {
   font-size: 50px;
   top: 280px;
+  font-size: 35px;
+  top: 290px;
   right: 735px;
 }
