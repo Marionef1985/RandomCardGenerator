@@ -24,23 +24,27 @@ button {
 
 #number {
   font-family: "Slabo 27px", serif;
-  font-size: 100px;
-  top: 120px;
-  right: 810px;
+  font-size: 110px;
+  top: 110px;
+  right: 800px;
 }
 
 .upSuits {
   font-size: 50px;
   top: 35px;
-  font-size: 35px;
-  top: 45px;
-  right: 895px;
+  right: 890px;
 }
 
 .downSuits {
   font-size: 50px;
   top: 280px;
-  font-size: 35px;
-  top: 290px;
-  right: 735px;
+  right: 725px;
+}
+
+.black {
+  color: black;
+}
+
+.red {
+  color: red;
 }
